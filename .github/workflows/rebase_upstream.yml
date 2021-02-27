@@ -12,4 +12,6 @@ jobs:
       - uses: finbotsdev/actions_rebase@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: main
           upstream_repository: sdcoffey/techan
+          upstream_branch: main
